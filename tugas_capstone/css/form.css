@@ -1,0 +1,83 @@
+body{
+  font-family: Poppins, sans-serif;
+  background:#f5f7fa;
+  padding:40px;
+}
+
+form{
+  max-width:500px;
+  margin:auto;
+  background:#fff;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+label{margin-top:15px;display:block}
+input,
+select{
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  box-sizing:border-box;
+}
+
+button{
+  margin-top:20px;
+  width:100%;
+  padding:12px;
+  background:#0a5cff;
+  color:#fff;
+  border:none;
+}
+
+.pesanan-wrapper{
+  max-width:900px;
+  margin:60px auto;
+  background:#fff;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.pesanan-wrapper h2{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+.pesanan-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.pesanan-table th,
+.pesanan-table td{
+  padding:14px;
+  border-bottom:1px solid #ddd;
+  text-align:center;
+}
+
+.pesanan-table th{
+  background:#f2f4f8;
+  font-weight:600;
+}
+
+.aksi a{
+  text-decoration:none;
+  padding:6px 10px;
+  border-radius:6px;
+  margin:0 4px;
+  font-size:14px;
+}
+
+.aksi a.edit{
+  background:#0a5cff;
+  color:white;
+}
+
+.aksi a.hapus{
+  background:#e63946;
+  color:white;
+}
